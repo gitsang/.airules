@@ -8,8 +8,7 @@
 ### 1.1 prompt
 
 ```txt
-Read rules by
+To read the rules, run the following command at the beginning of each task. Make sure you know what the rules file contains.
 
-- `find ~/.airules -type f -name "*.md" -exec cat {} \;`
-- `find .airules -type f -name "*.md" -exec cat {} \;`
+`find ~/.airules -type f -name "*.md" -exec cat {} \; && find .airules -type f -name "*.md" -exec cat {} \;`
 ```
